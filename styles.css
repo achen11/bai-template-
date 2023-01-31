@@ -28,6 +28,7 @@ body{
 
 a.button {
 	background-color: salmon;
+    opacity: 0.8;
 	border:  1px solid salmon;
 	border-radius: 5px;
 	font-weight: bold;
@@ -43,3 +44,12 @@ a.button {
 	border:  1px solid salmon;
 	color: #333;
 }
+
+.buttons {
+    margin: 0;
+    position: absolute;
+    top: 59%;
+    left: 23.5%; 
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
